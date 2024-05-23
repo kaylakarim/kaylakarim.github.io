@@ -783,8 +783,9 @@ footer{
 }
 
 .paris{
-	background-image:url("imgs/paris.png");
+	background-image:url("imgs/childcover.png");
 	width:100%;
+	background-size: 140%;
 	height:22vw;
 }
 
@@ -902,7 +903,7 @@ video{
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 40%;
     max-width: 1200px;
 	
 }
@@ -1498,7 +1499,7 @@ h4{
 	}
 	
 	.aboutCardWider{
-		height:40vh;
+		height:55vh;
 	}
 	
 	.scroller{
@@ -1635,7 +1636,7 @@ h4{
 	
 	.aboutCardWider{
 		width:100%;
-		height:70vh;
+		height:85vh;
 	}
 	
 }
@@ -1988,3 +1989,9 @@ h4{
 			margin-top:3%;
 		}
 	}
+	
+	.scale{
+	transform:scale(1.5);
+}
+	
+
